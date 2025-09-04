@@ -1,0 +1,38 @@
+This is for creating a single type of card with a single type of utility, for example a Turret (type) that is a Machine-gunner (utility).
+The whole collection will be this type and utility.
+
+1)Have python installed
+2)Run "pip install Pillow"
+3)Change the values in Template.json
+4)Have the following Folder Structure Ready:
+(make sure the border images are named according to this document. Both images and borders should be 1024x1024)
+(Put the borders in the BORDER folder and the images in the IMAGES subfolders accordingly)
+
+├── BORDER/
+│   ├── 1_common.png
+│   ├── 2_rare.png
+│   ├── 3_legendary.png
+│   ├── 4_exotic.png
+│   └── 5_ultra-exotic.png
+├── Final/
+│   ├── Images/
+│   └── Metadata/
+├── FONT/
+│   └── Generis.otf
+├── IMAGES/
+│   ├── 1_COMMON/
+│   ├── 2_RARE/
+│   ├── 3_LEGENDARY/
+│   ├── 4_EXOTIC/
+│   └── 5_ULTRA-EXOTIC/
+└── Shuffled/
+    ├── Images/
+    ├── Metadata/
+    └── NoJson/
+
+5)Fix any text you need to set in batch_combine_images.py then run it (output location is Final subfolders)
+6)Run OrderShuffle.py (output location is Shuffled subfolders)
+7)Upload your images to your IPFS and get your CID (copy the images to a folder outside and give it a custom name for the IPFS hosting)
+8)Put the CID into IPFS_FIX.py and run it
+9)Optional: if you need the metadata without the .json extention run JsonRemover.py (for example Magiceden needs this, they dont like .json files)
+10)Upload your Metadata (copy them to a folder outside and give it a custom name for the IPFS hosting)

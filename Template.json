@@ -1,0 +1,34 @@
+{
+    "name": "HERO OF AFRICA #0",
+    "image": "https://ipfs.io/ipfs/bafybeiehwh5dv3wnrn3te7h4sx7gmuzymsi5pzhmfapovyxb2laj2qxche/0.png",
+    "description": "SPEARS OF STEEL, RAINING DOWN!",
+    "properties": {
+        "FACTION": "IRON VANGUARDS OF ATHERA",
+        "TYPE": "TURRET",
+        "COLLECTION": "HEROES OF AFRICA",
+        "SPECIALTY": "MACHINE GUNNER",
+        "RARITY": "(same as folder name, all caps)"
+    },
+    "attributes": [
+        {
+            "trait_type": "FACTION",
+            "value": "IRON VANGUARDS OF ATHERA"
+        },
+        {
+            "trait_type": "TYPE",
+            "value": "TURRET"
+        },
+        {
+            "trait_type": "COLLECTION",
+            "value": "HEROES OF AFRICA"
+        },
+        {
+            "trait_type": "SPECIALTY",
+            "value": "MACHINE GUNNER"
+        },
+        {
+            "trait_type": "RARITY",
+            "value": "(same as folder name, all caps)"
+        }
+    ]
+}
